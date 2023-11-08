@@ -60,7 +60,7 @@
             &kp DEL    &kp N4     &kp N5     &kp N6     &trans         &kp LARW   &kp DARW   &kp UARW   &kp RARW   &kp SEMI
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  1       │  2       │  3       │  0       │   │          │          │          │          │          │
-           &caps_word  &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &trans
+           &caps_word  &kp N1     &kp N2     &kp N3     &kp N0         &kp LG(LS(Q))  &kp LEFT_GUI  &trans     &trans     &trans
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &kp ESC        &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
