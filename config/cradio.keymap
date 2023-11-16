@@ -42,8 +42,8 @@
         default_layer {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R    &kp T        &kp Y      &kp U  &kp I                 &kp O         &kp P
-&kp A  &kp S  &kp D  &kp F    &kp G        &kp H      &kp J  &kp K                 &kp L         &kp SQT
-&kp Z  &kp X  &kp C  &kp V    &kp B        &kp N      &kp M  &td UNDERSCORE SLASH  &td EXCL DOT  &kp X
+&kp A  &kp S  &kp D  &kp F    &kp G        &kp H      &kp J  &kp K                 &kp L         &td SQT DOUBLE_QUOTES
+&kp Z  &kp X  &kp C  &kp V    &kp B        &kp N      &kp M  &td UNDERSCORE SLASH  &td EXCL DOT  &td QUESTION FSLH
                      &kp TAB  &kp ENTER    &kp SPACE  &to 1
             >;
         };
