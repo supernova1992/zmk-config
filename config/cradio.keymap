@@ -41,19 +41,19 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R      &kp T            &kp Y      &kp U  &kp I      &kp O            &kp P
-&kp A  &kp S  &kp D  &kp F      &kp G            &kp H      &kp J  &kp K      &kp L            &kp ENTER
-&kp Z  &kp X  &kp C  &kp V      &kp B            &kp N      &kp M  &kp COMMA  &td EXCL PERIOD  &td SEMICOLON SLASH
-                     &kp LSHFT  &kp BACKSPACE    &kp SPACE  &to 1
+&td ESCAPE Q  &kp W        &kp E       &kp R    &kp T            &kp Y      &kp U  &kp I       &kp O            &kp P
+&hm LSHFT A   &hm LCTRL S  &hm LGUI D  &kp F    &kp G            &kp H      &kp J  &hm RGUI K  &hm RCTRL L      &hm RSHFT ENTER
+&kp Z         &kp X        &kp C       &kp V    &kp B            &kp N      &kp M  &kp COMMA   &td EXCL PERIOD  &td SEMICOLON SLASH
+                                       &kp TAB  &kp BACKSPACE    &kp SPACE  &to 1
             >;
         };
 
         left_layer {
             bindings = <
-&kp ESC    &kp ATSN       &td LC(LG(LS(N4))) LS(N3)  &kp DLLR          &kp PRCNT    &kp CARET  &kp LS(COMMA)  &kp LS(DOT)  &kp SEMI  &kp BACKSPACE
-&kp TAB    &kp EQUAL      &kp LA(RBKT)               &kp LA(LS(RBKT))  &kp SQT      &kp BSLH   &kp LBRC       &kp RBRC     &kp PIPE  &kp ENTER
-&kp TILDE  &kp LG(RS(Q))  &kp LA(LBKT)               &kp LA(LS(LBKT))  &kp DQT      &kp LBKT   &kp LPRN       &kp RPRN     &kp RBKT  &to 3
-                                                     &to 0             &sk SPC      &sk RALT   &to 2
+&kp EXCLAMATION  &kp AT_SIGN    &kp HASH      &kp DLLR          &kp PRCNT    &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TAB          &kp EQUAL      &kp LA(RBKT)  &kp LA(LS(RBKT))  &kp SQT      &kp BSLH   &kp LBRC       &kp RBRC      &kp PIPE              &kp ENTER
+&kp TILDE        &kp LG(RS(Q))  &kp LA(LBKT)  &kp LA(LS(LBKT))  &kp DQT      &kp LBKT   &kp LPRN       &kp RPRN      &kp RBKT              &to 3
+                                              &to 0             &sk SPC      &sk RALT   &to 2
             >;
         };
 
