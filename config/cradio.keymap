@@ -52,7 +52,7 @@
             bindings = <
 &td EXCLAMATION NUMBER_1  &td AT_SIGN NUMBER_2  &td HASH NUMBER_3  &td DLLR NUMBER_4  &td PRCNT N5    &td CARET NUMBER_6  &td AMPERSAND NUMBER_7  &td ASTERISK NUMBER_8  &td LEFT_PARENTHESIS NUMBER_9  &td RIGHT_PARENTHESIS NUMBER_0
 &kp GRAVE                 &kp EQUAL             &kp PLUS           &kp SEMICOLON      &kp SQT         &kp BSLH            &kp LBRC                &kp RBRC               &kp PIPE                       &kp ENTER
-&kp TILDE                 &kp LG(RS(Q))         &kp LA(QUESTION)   &kp GRAVE          &kp DQT         &kp LBKT            &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp RBKT                       &to 3
+&kp TILDE                 &kp LG(RS(Q))         &kp LA(QUESTION)   &kp GRAVE          &kp DQT         &kp LBKT            &kp RIGHT_BRACKET       &kp COLON              &kp DOUBLE_QUOTES              &to 3
                                                                    &to 0              &trans          &trans              &to 2
             >;
         };
