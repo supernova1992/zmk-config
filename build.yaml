@@ -13,7 +13,7 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nrfmicro/nrf52840/zmk@1.3
     shield: cradio_left
-  - board: nice_nano_v2
+  - board: nrfmicro/nrf52840/zmk@1.3
     shield: cradio_right
