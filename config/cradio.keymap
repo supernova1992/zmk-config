@@ -52,10 +52,10 @@
 
         default_layer {
             bindings = <
-&td TAB Q         &kp W        &kp E  &kp R         &kp T            &kp Y      &kp U    &kp I                &kp O                    &kp P
-&td ESCAPE A      &hm LCTRL S  &kp D  &kp F         &kp G            &kp H      &kp J    &kp K                &hm RCTRL L              &td RSHFT ENTER
-&td LEFT_SHIFT Z  &kp X        &kp C  &kp V         &kp B            &kp N      &kp M    &td LESS_THAN COMMA  &td GREATER_THAN PERIOD  &td QUESTION SLASH
-                                      &kp LEFT_GUI  &kp BACKSPACE    &kp SPACE  &ls 5 1
+&td TAB Q         &kp W  &kp E  &kp R      &kp T            &kp Y      &kp U    &kp I                &kp O                    &kp P
+&td CAPSLOCK A    &kp S  &kp D  &kp F      &kp G            &kp H      &kp J    &kp K                &kp L                    &td RSHFT ENTER
+&td LEFT_SHIFT Z  &kp X  &kp C  &kp V      &kp B            &kp N      &kp M    &td LESS_THAN COMMA  &td GREATER_THAN PERIOD  &td QUESTION SLASH
+                                &kp LCTRL  &kp BACKSPACE    &kp SPACE  &ls 5 1
             >;
         };
 
